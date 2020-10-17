@@ -3,10 +3,10 @@
 }
 
 .mat-toolbar {
-    background: purple;
 }
 
 button.heart-icon {
     color: deeppink;
+    height: 75%;
 }
 

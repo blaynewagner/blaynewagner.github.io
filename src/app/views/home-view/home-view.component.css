@@ -1,0 +1,11 @@
+.home-view {
+    background: white;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.mat-button {
+    outline: black;
+}
