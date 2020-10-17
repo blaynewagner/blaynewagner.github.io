@@ -10,12 +10,14 @@ import { HomeViewComponent } from './views/home-view/home-view.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { ThingsILoveViewComponent } from './views/things-i-love-view/things-i-love-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppHeaderComponent,
-    HomeViewComponent
+    HomeViewComponent,
+    ThingsILoveViewComponent
   ],
   imports: [
     BrowserModule,
