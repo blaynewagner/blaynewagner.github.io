@@ -7,7 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThingsILoveViewComponent implements OnInit {
 
+  currentQuote: string = 'love u';
+
+  possibleQuotes: string[] = [
+    'you have such a contagious smile and your teeth are perfect'
+  ];
+
   constructor() { }
+
+  generateNewQuote() {
+
+  }
 
   ngOnInit(): void {
   }
