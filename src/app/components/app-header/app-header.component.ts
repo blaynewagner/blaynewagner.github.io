@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppHeaderComponent implements OnInit {
 
+  isMenuOpen = true;
+
   constructor() { }
 
   ngOnInit(): void { 

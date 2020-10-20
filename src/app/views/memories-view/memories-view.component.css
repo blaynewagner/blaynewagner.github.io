@@ -1,12 +1,11 @@
-.home-view {
-    background: white;
+img {
+    width: 35%;
+}
+
+.memories-view {
     opacity: 0.6;
     width: 75%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-button.mat-button {
-    outline: black;
 }

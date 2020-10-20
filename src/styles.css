@@ -2,6 +2,8 @@
 
 html, body { 
     height: 100%;  
+    background-image: linear-gradient(white, lightpink);
+    background-attachment: fixed;
 }
 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
