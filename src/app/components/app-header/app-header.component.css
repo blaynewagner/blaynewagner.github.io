@@ -2,8 +2,13 @@
     flex: 1 1 auto;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .mat-toolbar {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 button.heart-icon {

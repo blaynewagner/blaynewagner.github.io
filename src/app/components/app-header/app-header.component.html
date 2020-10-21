@@ -1,15 +1,13 @@
 <mat-toolbar>
-    <span>happy seven year anniversary</span>
+    <span><a routerLink="/">seven year anniversary</a></span>
 
-    <mat-tab-group>
-        <mat-tab label="things i love about you"></mat-tab>
-        <mat-tab label="memories"></mat-tab>
-        <mat-tab label="Third"></mat-tab>
-    </mat-tab-group>
-
+    <nav mat-tab-nav-bar>
+        <a mat-tab-link routerLink="/loveAboutYou">things I love about you</a>
+        <a mat-tab-link routerLink="/memories">memories</a>
+    </nav> 
+ 
     <span class="example-spacer"></span>
     <button mat-icon-button class="heart-icon" aria-label="I love you!">
         <mat-icon>favorite</mat-icon>
     </button>
-</mat-toolbar>
-
+</mat-toolbar> 
